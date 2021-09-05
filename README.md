@@ -8,6 +8,7 @@ If not please first setup your project Running JMeter Script from Eclipse in Mav
 Update POM.xml
 
 Add Parameters Configuration in POM.xml
+```javascript
 <configuration>
     <testResultsTimestamp>false</testResultsTimestamp>
     <propertiesUser>
@@ -16,3 +17,4 @@ Add Parameters Configuration in POM.xml
         <duration>${durationSecond}</duration>
     </propertiesUser>
 </configuration>
+```
