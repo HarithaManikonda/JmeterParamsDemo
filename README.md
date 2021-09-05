@@ -27,3 +27,7 @@ Update POM.xml
 ## Results displayed in jenkins as below
 ![Screen Shot 2021-09-04 at 11 01 48 PM](https://user-images.githubusercontent.com/87215340/132117182-a3e72a1a-1d4c-4a56-a783-3b7ebec94305.png)
 
+## Running from terminal
+```javascript
+bash-3.2$ mvn verify -DthreadCount=20 -DrampupTime=5
+```
